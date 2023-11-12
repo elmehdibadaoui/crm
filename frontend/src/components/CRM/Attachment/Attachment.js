@@ -316,7 +316,7 @@ const Attachment = () => {
 					<UserPrivateComponent permission='create-attachment'>
 						<button
 							onClick={() => setOpen(true)}
-							className='py-2 px-3 border bg-teal-700 hover:bg-teal-500 text-white rounded cursor-pointer flex items-center justify-center gap-2'>
+							className='py-2 px-3 border bg-blue-700 hover:bg-blue-500 text-white rounded cursor-pointer flex items-center justify-center gap-2'>
 							<AiOutlinePlus /> Create Attachment
 						</button>
 					</UserPrivateComponent>

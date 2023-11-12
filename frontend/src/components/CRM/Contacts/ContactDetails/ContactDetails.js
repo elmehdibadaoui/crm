@@ -82,7 +82,7 @@ export default function ContactDetails() {
                 className='flex gap-3 items-center  px-5 py-2 font-semibold'
               >
                 Opportunities
-                <span className='px-1 bg-teal-700 text-white rounded-full'>
+                <span className='px-1 bg-blue-700 text-white rounded-full'>
                   {contact?.opportunity?.length}
                 </span>
               </div>
@@ -92,7 +92,7 @@ export default function ContactDetails() {
                 className='flex gap-3 items-center  px-5 py-2 font-semibold'
               >
                 Tasks
-                <span className='px-1 bg-teal-700 text-white rounded-full'>
+                <span className='px-1 bg-blue-700 text-white rounded-full'>
                   {contact?.crmTask?.length}
                 </span>
               </div>
@@ -102,7 +102,7 @@ export default function ContactDetails() {
                 className='flex gap-3 items-center  px-5 py-2 font-semibold'
               >
                 Notes
-                <span className='px-1 bg-teal-700 text-white rounded-full'>
+                <span className='px-1 bg-blue-700 text-white rounded-full'>
                   {contact?.note?.length}
                 </span>
               </div>
@@ -111,7 +111,7 @@ export default function ContactDetails() {
                 className='flex gap-3 items-center  px-5 py-2 font-semibold'
               >
                 Attachments
-                <span className='px-1 bg-teal-700 text-white rounded-full'>
+                <span className='px-1 bg-blue-700 text-white rounded-full'>
                   {contact?.attachment?.length}
                 </span>
               </div>
@@ -120,7 +120,7 @@ export default function ContactDetails() {
                 className='flex gap-3 items-center  px-5 py-2 font-semibold'
               >
                 Emails
-                <span className='px-1 bg-teal-700 text-white rounded-full'>
+                <span className='px-1 bg-blue-700 text-white rounded-full'>
                   {contact?.crmEmail?.length}
                 </span>
               </div>
@@ -129,7 +129,7 @@ export default function ContactDetails() {
                 className='flex gap-3 items-center  px-5 py-2 font-semibold'
               >
                 Quotes
-                <span className='px-1 bg-teal-700 text-white rounded-full'>
+                <span className='px-1 bg-blue-700 text-white rounded-full'>
                   {contact?.quote?.length}
                 </span>
               </div>

@@ -18,7 +18,7 @@ export default function Setup() {
             className='flex flex-col items-center gap-2 text-xl'
             to={"/admin/setup/account/balance-sheet"}
           >
-            <div className='px-5 md:px-8 py-5 bg-teal-700 hover:bg-teal-500 text-white font-bold rounded flex items-center justify-center'>
+            <div className='px-5 md:px-8 py-5 bg-blue-700 hover:bg-blue-500 text-white font-bold rounded flex items-center justify-center'>
               <MdAccountBalance className='text-3xl text-white fill-white' />
             </div>
             Balance Sheet
@@ -27,7 +27,7 @@ export default function Setup() {
             className='flex flex-col items-center gap-2 text-xl'
             to={"/admin/setup/staffs"}
           >
-            <div className='px-5 md:px-8 py-5 bg-teal-700 hover:bg-teal-500 text-white font-bold rounded flex items-center justify-center'>
+            <div className='px-5 md:px-8 py-5 bg-blue-700 hover:bg-blue-500 text-white font-bold rounded flex items-center justify-center'>
               <BsPersonWorkspace className='text-3xl text-white fill-white' />
             </div>
             Employee List
@@ -36,7 +36,7 @@ export default function Setup() {
             className='flex flex-col items-center gap-2 text-xl'
             to={"/admin/setup/announcement"}
           >
-            <div className='px-5 md:px-8 py-5 bg-teal-700 hover:bg-teal-500 text-white font-bold rounded flex items-center justify-center'>
+            <div className='px-5 md:px-8 py-5 bg-blue-700 hover:bg-blue-500 text-white font-bold rounded flex items-center justify-center'>
               <TfiAnnouncement className='text-3xl text-white fill-white' />
             </div>
             Announcement
@@ -45,7 +45,7 @@ export default function Setup() {
             className='flex flex-col items-center gap-2 text-xl'
             to={"/admin/setup/award"}
           >
-            <div className='px-5 md:px-8 py-5 bg-teal-700 hover:bg-teal-500 text-white font-bold rounded flex items-center justify-center'>
+            <div className='px-5 md:px-8 py-5 bg-blue-700 hover:bg-blue-500 text-white font-bold rounded flex items-center justify-center'>
               <BsAward className='text-3xl text-white fill-white' />
             </div>
             Award
@@ -54,7 +54,7 @@ export default function Setup() {
             className='flex flex-col items-center gap-2 text-xl'
             to={"/admin/setup/company-setting"}
           >
-            <div className='px-5 md:px-8 py-5 bg-teal-700 hover:bg-teal-500 text-white font-bold rounded flex items-center justify-center'>
+            <div className='px-5 md:px-8 py-5 bg-blue-700 hover:bg-blue-500 text-white font-bold rounded flex items-center justify-center'>
               <AiOutlineSetting className='text-3xl text-white fill-white' />
             </div>
             Company Setting

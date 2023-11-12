@@ -26,7 +26,7 @@ export default function SingleNote({ onClose, note }) {
             isEdit ? (
               <div
                 onClick={editToggle}
-                className='select-none py-2 px-3 border bg-teal-700 hover:bg-teal-500 text-white rounded cursor-pointer  flex items-center justify-center gap-2'
+                className='select-none py-2 px-3 border bg-blue-700 hover:bg-blue-500 text-white rounded cursor-pointer  flex items-center justify-center gap-2'
               >
                 <CgFileDocument />
                 View Note
@@ -34,7 +34,7 @@ export default function SingleNote({ onClose, note }) {
             ) : (
               <div
                 onClick={editToggle}
-                className='select-none py-2 px-3 border bg-teal-700 hover:bg-teal-500 text-white rounded cursor-pointer  flex items-center justify-center gap-2'
+                className='select-none py-2 px-3 border bg-blue-700 hover:bg-blue-500 text-white rounded cursor-pointer  flex items-center justify-center gap-2'
               >
                 <AiFillEdit />
                 Edit Note

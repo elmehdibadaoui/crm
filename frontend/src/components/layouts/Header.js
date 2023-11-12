@@ -96,7 +96,7 @@ function HeaderResponsive({ onPress }) {
 
   return (
     <>
-      <Header className='bg-teal-900'>
+      <Header className='bg-blue-500'>
         <div className='flex justify-between px-2 md:pl-5 md:pr-3'>
           <span className='flex items-center gap-2 font-bold font-poppins text-white select-none'>
             CRM <span className='text-teal-400'>OS</span>

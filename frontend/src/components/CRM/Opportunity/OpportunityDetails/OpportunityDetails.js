@@ -85,7 +85,7 @@ export default function OpportunityDetails() {
                 className='flex gap-3 items-center  px-5 py-2 font-semibold'
               >
                 Tasks
-                <span className='px-1 bg-teal-700 text-white rounded-full'>
+                <span className='px-1 bg-blue-700 text-white rounded-full'>
                   {opportunity?.crmTask?.length}
                 </span>
               </div>
@@ -95,7 +95,7 @@ export default function OpportunityDetails() {
                 className='flex gap-3 items-center  px-5 py-2 font-semibold'
               >
                 Notes
-                <span className='px-1 bg-teal-700 text-white rounded-full'>
+                <span className='px-1 bg-blue-700 text-white rounded-full'>
                   {opportunity?.note?.length}
                 </span>
               </div>
@@ -104,7 +104,7 @@ export default function OpportunityDetails() {
                 className='flex gap-3 items-center  px-5 py-2 font-semibold'
               >
                 Attachments
-                <span className='px-1 bg-teal-700 text-white rounded-full'>
+                <span className='px-1 bg-blue-700 text-white rounded-full'>
                   {opportunity?.attachment?.length}
                 </span>
               </div>
@@ -113,7 +113,7 @@ export default function OpportunityDetails() {
                 className='flex gap-3 items-center  px-5 py-2 font-semibold'
               >
                 Emails
-                <span className='px-1 bg-teal-700 text-white rounded-full'>
+                <span className='px-1 bg-blue-700 text-white rounded-full'>
                   {opportunity?.crmEmail?.length}
                 </span>
               </div>
@@ -122,7 +122,7 @@ export default function OpportunityDetails() {
                 className='flex gap-3 items-center  px-5 py-2 font-semibold'
               >
                 Quotes
-                <span className='px-1 bg-teal-700 text-white rounded-full'>
+                <span className='px-1 bg-blue-700 text-white rounded-full'>
                   {opportunity?.quote?.length}
                 </span>
               </div>

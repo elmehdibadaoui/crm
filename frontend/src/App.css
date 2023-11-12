@@ -484,6 +484,10 @@ body {
 	color: #134e4a !important;
 }
 
+.ant-menu-root .ant-menu-item-selected {
+	font-weight: bold;
+}
+
 .ant-menu-sub > .ant-menu-item-selected {
 	background: #99f6e4 !important;
 }

@@ -76,7 +76,7 @@ export default function Opportunities({
       render: (id, opportunity) => (
         <span
           onClick={() => setEdit(opportunity)}
-          className='bg-teal-500 p-1 cursor-pointer w-8 h-8 flex justify-center items-center rounded'
+          className='bg-blue-500 p-1 cursor-pointer w-8 h-8 flex justify-center items-center rounded'
         >
           <BiEdit className='text-white' />
         </span>

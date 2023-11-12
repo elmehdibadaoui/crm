@@ -189,7 +189,7 @@ const Headnav = ({ mobile }) => {
   return (
     <div className='w-[90%] hidden md:block'>
       <Menu
-        className='bg-teal-900 text-white border-none font-poppins'
+        className='bg-blue-500 text-white border-none font-poppins'
         mode='horizontal'
         items={menu}
       />

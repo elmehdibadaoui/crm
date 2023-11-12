@@ -351,7 +351,7 @@ export default function SideBar() {
     <>
       <div className='select-none'>
         <Menu
-          className='bg-teal-700 text-white border-none font-poppins'
+          className='bg-blue-700 text-white border-none font-poppins'
           mode='inline'
           items={menu}
         />

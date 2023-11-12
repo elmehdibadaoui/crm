@@ -15,7 +15,7 @@ export default function SetupLayout() {
         <Layout.Sider
           trigger={null}
           collapsed={collapsed}
-          className='absolute md:static z-10 bg-teal-700 overflow-y-auto overflow-x-hidden'
+          className='absolute md:static z-10 bg-blue-700 overflow-y-auto overflow-x-hidden'
           style={{ height: "calc(100vh - 102px)" }}
         >
           <div className='w-full md:hidden pt-2 pr-2 text-white flex justify-end'>

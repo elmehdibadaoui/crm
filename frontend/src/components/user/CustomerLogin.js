@@ -118,7 +118,7 @@ const CustomerLogin = () => {
               <div className='flex justify-center'>
                 <Link
                   to={"/admin/auth/login"}
-                  className='bg-teal-500 p-1 w-2/6 justify-center mt-3 rounded text-white font-semibold  block text-center'
+                  className='bg-blue-500 p-1 w-2/6 justify-center mt-3 rounded text-white font-semibold  block text-center'
                 >
                   Admin login
                 </Link>

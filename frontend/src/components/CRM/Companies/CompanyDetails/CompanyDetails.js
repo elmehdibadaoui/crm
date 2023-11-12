@@ -88,7 +88,7 @@ export default function CompanyDetails() {
                 className='flex gap-3 items-center  px-5 py-2 font-semibold'
               >
                 Opportunities
-                <span className='px-1 bg-teal-700 text-white rounded-full'>
+                <span className='px-1 bg-blue-700 text-white rounded-full'>
                   {company?.opportunity?.length}
                 </span>
               </div>
@@ -98,7 +98,7 @@ export default function CompanyDetails() {
                 className='flex gap-3 items-center  px-5 py-2 font-semibold'
               >
                 Tasks
-                <span className='px-1 bg-teal-700 text-white rounded-full'>
+                <span className='px-1 bg-blue-700 text-white rounded-full'>
                   {company?.crmTask?.length}
                 </span>
               </div>
@@ -107,7 +107,7 @@ export default function CompanyDetails() {
                 className='flex gap-3 items-center  px-5 py-2 font-semibold'
               >
                 Contacts
-                <span className='px-1 bg-teal-700 text-white rounded-full'>
+                <span className='px-1 bg-blue-700 text-white rounded-full'>
                   {company?.contact?.length}
                 </span>
               </div>
@@ -117,7 +117,7 @@ export default function CompanyDetails() {
                 className='flex gap-3 items-center  px-5 py-2 font-semibold'
               >
                 Notes
-                <span className='px-1 bg-teal-700 text-white rounded-full'>
+                <span className='px-1 bg-blue-700 text-white rounded-full'>
                   {company?.note?.length}
                 </span>
               </div>
@@ -126,7 +126,7 @@ export default function CompanyDetails() {
                 className='flex gap-3 items-center  px-5 py-2 font-semibold'
               >
                 Attachments
-                <span className='px-1 bg-teal-700 text-white rounded-full'>
+                <span className='px-1 bg-blue-700 text-white rounded-full'>
                   {company?.attachment?.length}
                 </span>
               </div>
@@ -135,7 +135,7 @@ export default function CompanyDetails() {
                 className='flex gap-3 items-center  px-5 py-2 font-semibold'
               >
                 Emails
-                <span className='px-1 bg-teal-700 text-white rounded-full'>
+                <span className='px-1 bg-blue-700 text-white rounded-full'>
                   {company?.crmEmail?.length}
                 </span>
               </div>
@@ -144,7 +144,7 @@ export default function CompanyDetails() {
                 className='flex gap-3 items-center  px-5 py-2 font-semibold'
               >
                 Quotes
-                <span className='px-1 bg-teal-700 text-white rounded-full'>
+                <span className='px-1 bg-blue-700 text-white rounded-full'>
                   {company?.quote?.length}
                 </span>
               </div>

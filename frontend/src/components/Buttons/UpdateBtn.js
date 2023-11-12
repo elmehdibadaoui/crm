@@ -7,7 +7,7 @@ const UpdateBtn = ({ path }) => {
 		<div>
 			<Tooltip title='Update'>
 				<Link to={path}>
-					<button className='bg-teal-500 hover:bg-teal-700 text-white font-bold  px-2 rounded mr-2'>
+					<button className='bg-blue-500 hover:bg-blue-700 text-white font-bold  px-2 rounded mr-2'>
 						<i class='bi bi-pencil-square'></i>
 					</button>
 				</Link>

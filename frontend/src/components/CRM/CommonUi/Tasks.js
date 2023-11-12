@@ -72,7 +72,7 @@ export default function Tasks({ data, loading, name, singleLoadThunk }) {
       render: (id, task) => (
         <span
           onClick={() => setEdit(task)}
-          className='bg-teal-500 p-1 cursor-pointer w-8 h-8 flex justify-center items-center rounded'
+          className='bg-blue-500 p-1 cursor-pointer w-8 h-8 flex justify-center items-center rounded'
         >
           <BiEdit className='text-white' />
         </span>

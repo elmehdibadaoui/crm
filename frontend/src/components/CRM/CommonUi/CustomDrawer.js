@@ -27,7 +27,7 @@ export default function CustomDrawer({
               ? color + "p-1"
               : update
               ? "bg-[#1890ff] hover:bg-[#42a4ff] p-2"
-              : "bg-teal-700 hover:bg-teal-500 p-1"
+              : "bg-blue-700 hover:bg-blue-500 p-1"
           }  text-white rounded cursor-pointer`}
         >
           <div className='flex items-center gap-2'>

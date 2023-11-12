@@ -115,7 +115,7 @@ const Login = () => {
               </h6>
             </Form>
             <div className="flex justify-center">
-              <Link to={"/customer/login"} className='bg-teal-500 p-1 mt-3 w-2/6 rounded text-white font-semibold  block text-center'>
+              <Link to={"/customer/login"} className='bg-blue-500 p-1 mt-3 w-2/6 rounded text-white font-semibold  block text-center'>
                 Customer login
               </Link>
             </div>
